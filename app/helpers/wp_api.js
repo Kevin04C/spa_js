@@ -1,4 +1,4 @@
-const NAME = "css-tricks";
+const NAME = "malvestida";
 const DOMINAN = `https://${NAME}.com`;
 const SITE = `${DOMINAN}/wp-json`;
 const API_WP = `${SITE}/wp/v2`;

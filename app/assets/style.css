@@ -54,6 +54,7 @@ img {
   top: 0;
   text-align: center;
   background-color: #fafafa;
+  /* box-shadow: 0 2px 25px rgba(34, 34, 34, 0.05); */
 }
 .header > * {
   margin: 1rem 0;
