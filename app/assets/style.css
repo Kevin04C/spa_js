@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fafafa;
+}
+a {
+  color: #01579b;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #00b0ff;
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  text-align: center;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.form-search {
+  display: block;
+  text-align: center;
+}
+.form-search input {
+  border-radius: 0.25rem;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 25px rgba(34, 34, 34, 0.05);
+}
+.header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #fafafa;
+}
+.header > * {
+  margin: 1rem 0;
+}
+.loader {
+  display: block;
+  margin: 1rem auto;
+  width: 4rem;
+  height: 4rem;
+}
+.post-card {
+  margin: 1rem auto;
+  width: 80%;
+  padding: 1rem;
+  background-color: #eceff1;
+  border-radius: 10px;
+}
+.post-card img {
+  display: block;
+  margin: auto;
+}
+.post-card p {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
